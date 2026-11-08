@@ -7,7 +7,7 @@ The Phishnoo Sandbox skill lets developers explore example security awareness me
 Install the skill with:
 
 ```sh
-npx skills add PangPang83/phishnoo-skills --skill phishnoo-sandbox
+npx skills add PangPang83/phishnoo-skills --skill phishnoo-awareness-sandbox
 ```
 
 Configure an operator-issued sandbox key in the client's secret settings. Use example data only.
