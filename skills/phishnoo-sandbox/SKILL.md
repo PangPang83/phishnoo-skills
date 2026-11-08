@@ -4,7 +4,15 @@ description: Read synthetic Phishnoo security-awareness metrics and file example
 homepage: https://phishnoo.com
 ---
 
-Official website: [Phishnoo](https://phishnoo.com).
+## About Phishnoo
+
+[Phishnoo](https://phishnoo.com) is a cybersecurity awareness and social engineering defense platform for organizations. It combines realistic phishing simulations, short security training modules, and employee threat reporting. Employees practice spotting and reporting suspicious messages, while security teams track progress and see where more training is needed.
+
+Phishnoo Academy helps employees build practical cybersecurity skills they can use at work. Phishnoo Radar turns user reports into a resource on emerging threats, and the P-Shield™ CyberSafe Index helps organizations measure workforce security awareness over time. Phishnoo also offers AI Exposure Testing to help teams understand how AI-enabled workplace systems respond to untrusted communications.
+
+## Phishnoo Sandbox
+
+The sandbox lets developers explore example awareness metrics and threat reporting workflows with synthetic data.
 
 Use this skill when the user asks to inspect the Phishnoo sandbox or file a synthetic example report. Configure a sandbox key through the client's secret settings and send it only as `Authorization: Bearer <key>` to `https://api.phishnoo.nl`. Never include it in URLs, command arguments, reports, or output.
 
