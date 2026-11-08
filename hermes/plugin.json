@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "phishnoo-sandbox",
+  "version": "0.1.0",
+  "description": "Explore synthetic security awareness metrics and submit example threat reports with Phishnoo Sandbox.",
+  "author": { "name": "Pieter", "url": "https://phishnoo.com" },
+  "homepage": "https://phishnoo.com",
+  "repository": "https://github.com/PangPang83/phishnoo-skills",
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": { "phishnoo": { "trust": "untrusted" } }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "phishnoo": {
+      "type": "streamable-http",
+      "url": "https://api.phishnoo.nl/mcp",
+      "headers": { "Authorization": "Bearer ${PHISHNOO_SANDBOX_KEY}" }
+    }
+  }
+}

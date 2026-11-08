@@ -13,3 +13,5 @@ npx skills add PangPang83/phishnoo-skills --skill phishnoo-awareness-sandbox
 Configure an operator-issued sandbox key in the client's secret settings. Use example data only.
 
 [Phishnoo](https://phishnoo.com) · [Developer docs](https://api.phishnoo.nl/docs)
+
+[Hermes Agent plugin](hermes/README.md)
